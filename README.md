@@ -1,78 +1,103 @@
-# Projeler ve Görev Listesi
+# Projects and Task List
 
-Bu projeler, Golang ile backend geliştirme becerilerini sergilemek ve çeşitli yazılım mimarilerini uygulamak için tasarlanmıştır. Her bir proje belirli teknolojiler ve mimari yaklaşımlar kullanılarak geliştirilmiştir.
+These projects are designed to showcase backend development skills with Golang and apply various software architectures. Each project is developed using specific technologies and architectural approaches.
 
-## 1. Pastebin Klonu
+## 1. Pastebin Clone
 
-**Amaç**: Kullanıcıların metin veya kod parçacıklarını paylaşabileceği basit bir backend uygulaması.
+**Objective**: Develop a simple backend application where users can share text or code snippets.
 
-**Teknolojiler**: Gin veya Echo, Gorm, PostgreSQL/MongoDB
+**Technologies**: Gin or Echo, Gorm, PostgreSQL/MongoDB
 
-**Mimari**: Modüler Mimari ve Repository Pattern
+**Architecture**: Modular Architecture and Repository Pattern
 
-**Görevler**:
-- [ ] Kullanıcı kimlik doğrulama (JWT)
-- [ ] CRUD işlemleri (metin/kod parçacığı)
-- [ ] Paylaşım linki oluşturma
-- [ ] Görüntülenme istatistikleri toplama
-- [ ] Dokümantasyon
+**Tasks**:
+- [ ] Implement user authentication using JWT.
+- [ ] Allow users to create text or code snippets.
+- [ ] Display created text or code snippets.
+- [ ] Enable users to update existing text or code snippets.
+- [ ] Allow users to delete text or code snippets.
+- [ ] Generate a shareable link for each text or code snippet.
+- [ ] Collect view statistics for shared text or code snippets.
+- [ ] Document the project thoroughly.
 
-## 2. RESTful API İle Kitap Yönetim Sistemi
+## 2. Financial Transactions Tracking Application
 
-**Amaç**: Basit bir kitap yönetim sistemi API'si.
+**Objective**: Develop an application where users can track their income and expenses.
 
-**Teknolojiler**: Gin veya Echo, Gorm, PostgreSQL
+**Technologies**: Gin or Echo, Gorm, PostgreSQL
 
-**Mimari**: RESTful Mimari ve Service Layer Pattern
+**Architecture**: Domain-Driven Design (DDD) and Repository Pattern
 
-**Görevler**:
-- [ ] Kullanıcı kimlik doğrulama (JWT)
-- [ ] CRUD işlemleri (kitap)
-- [ ] Arama ve filtreleme
-- [ ] Service Layer
-- [ ] Dokümantasyon
+**Tasks**:
+- [ ] Implement user authentication using JWT.
+- [ ] Allow users to create income and expense entries.
+- [ ] Display, update, and delete income and expense entries.
+- [ ] Generate reports for income and expenses.
+- [ ] Apply Domain-Driven Design principles.
+- [ ] Document the project thoroughly.
 
-## 3. Görev Yönetim Sistemi (To-Do List)
+## 3. News Aggregator and Analysis Application
 
-**Amaç**: Kullanıcıların görevlerini yönetebileceği basit bir backend uygulaması.
+**Objective**: Develop an application that collects data from various news sources (RSS feeds, news APIs), processes and analyzes this data. Users can track news based on specific topics or keywords and analyze these news items.
 
-**Teknolojiler**: Gin veya Echo, Gorm, PostgreSQL
+**Technologies**: Golang, OAuth (for source access), MongoDB, Docker, Natural Language Processing (NLP) libraries
 
-**Mimari**: Clean Architecture ve CQRS (Command Query Responsibility Segregation)
+**Architecture**: Clean Architecture and CQRS (Command Query Responsibility Segregation)
 
-**Görevler**:
-- [ ] Kullanıcı kimlik doğrulama (JWT)
-- [ ] CRUD işlemleri (görev)
-- [ ] Kategoriler
-- [ ] CQRS
-- [ ] Dokümantasyon
+**Tasks**:
+- [ ] Implement user authentication using JWT.
+- [ ] Fetch data from various news sources (RSS feeds and news APIs).
+- [ ] Analyze news content using Natural Language Processing (NLP) techniques (sentiment analysis, topic modeling, etc.).
+- [ ] Store collected and processed data in MongoDB.
+- [ ] Enable users to filter and track news based on specific topics or keywords.
+- [ ] Implement API rate limiting and manage access to news sources.
+- [ ] Document the project thoroughly.
 
-## 4. Gerçek Zamanlı Chat Uygulaması
+## 4. Real-Time Chat Application
 
-**Amaç**: Gerçek zamanlı mesajlaşma özelliklerine sahip bir chat uygulaması.
+**Objective**: Develop a chat application with real-time messaging capabilities.
 
-**Teknolojiler**: Gin veya Echo, Redis (veya PostgreSQL), WebSocket
+**Technologies**: Gin or Echo, Redis (or PostgreSQL), WebSocket
 
-**Mimari**: Event-Driven Architecture ve Microservices
+**Architecture**: Event-Driven Architecture and Microservices
 
-**Görevler**:
-- [ ] Kullanıcı kimlik doğrulama (JWT)
-- [ ] WebSocket
-- [ ] Mesaj geçmişi
-- [ ] Event-Driven Architecture
-- [ ] Dokümantasyon
+**Tasks**:
+- [ ] Implement user authentication using JWT.
+- [ ] Provide WebSocket support for real-time messaging.
+- [ ] Manage and store message history.
+- [ ] Use Event-Driven Architecture to enhance system efficiency.
+- [ ] Document the project thoroughly.
 
-## 5. Finansal İşlemler Takip Uygulaması
+## 5. Small-Scale Product Management System
 
-**Amaç**: Kullanıcıların gelir ve gider işlemlerini takip edebileceği bir uygulama.
+**Purpose**: A simple e-commerce product management system using microservices architecture.
 
-**Teknolojiler**: Gin veya Echo, Gorm, PostgreSQL
+**Technologies**: Golang, Gin or Echo, PostgreSQL/MongoDB, Docker, gRPC or REST
 
-**Mimari**: Domain-Driven Design (DDD) ve Repository Pattern
+**Architecture**: Microservices Architecture
 
-**Görevler**:
-- [ ] Kullanıcı kimlik doğrulama (JWT)
-- [ ] CRUD işlemleri (gelir/gider)
-- [ ] Raporlama
-- [ ] DDD
-- [ ] Dokümantasyon
+**Microservices**:
+- **Product Service**:
+  - [ ] Define product model (name, description, category, price, etc.)
+  - [ ] Implement CRUD operations
+  - [ ] Containerize using Docker
+
+- **Category Service**:
+  - [ ] Define category model (name, description, etc.)
+  - [ ] Implement CRUD operations
+  - [ ] Containerize using Docker
+
+- **Stock Management Service**:
+  - [ ] Define stock model (product ID, stock quantity, etc.)
+  - [ ] Implement stock management operations
+  - [ ] Containerize using Docker
+
+- **Pricing Service**:
+  - [ ] Define pricing model (product ID, price, etc.)
+  - [ ] Implement pricing management operations
+  - [ ] Containerize using Docker
+
+**Tasks**:
+- [ ] Microservices intercommunication using REST API or gRPC
+- [ ] API Gateway setup (e.g., Traefik or Nginx)
+- [ ] Documentation
