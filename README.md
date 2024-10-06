@@ -2,23 +2,22 @@
 
 These projects are designed to showcase backend development skills with Golang and apply various software architectures. Each project is developed using specific technologies and architectural approaches.
 
-## 1. Pastebin Clone
+## 1. [Pastebin Clone](https://github.com/tugrulsimsirli/pastebin-clone)
 
 **Objective**: Develop a simple backend application where users can share text or code snippets.
 
 **Technologies**: Gin or Echo, Gorm, PostgreSQL/MongoDB
 
-**Architecture**: Modular Architecture and Repository Pattern
+**Architecture**: Layered Architecture and Repository Pattern
 
 **Tasks**:
-- [ ] Implement user authentication using JWT.
-- [ ] Allow users to create text or code snippets.
-- [ ] Display created text or code snippets.
-- [ ] Enable users to update existing text or code snippets.
-- [ ] Allow users to delete text or code snippets.
-- [ ] Generate a shareable link for each text or code snippet.
-- [ ] Collect view statistics for shared text or code snippets.
-- [ ] Document the project thoroughly.
+- [x] Implement user authentication using JWT.
+- [x] Allow users to create text or code snippets.
+- [x] Display created text or code snippets.
+- [x] Enable users to update existing text or code snippets.
+- [x] Allow users to delete text or code snippets.
+- [x] Collect view statistics for shared text or code snippets.
+- [x] Document the project thoroughly.
 
 ## 2. Financial Transactions Tracking Application
 
