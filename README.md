@@ -11,13 +11,13 @@ These projects are designed to showcase backend development skills with Golang a
 **Architecture**: Layered Architecture and Repository Pattern
 
 **Tasks**:
-- [x] Implement user authentication using JWT.
-- [x] Allow users to create text or code snippets.
-- [x] Display created text or code snippets.
-- [x] Enable users to update existing text or code snippets.
-- [x] Allow users to delete text or code snippets.
-- [x] Collect view statistics for shared text or code snippets.
-- [x] Document the project thoroughly.
+- ✅ Implement user authentication using JWT.
+- ✅ Allow users to create text or code snippets.
+- ✅ Display created text or code snippets.
+- ✅ Enable users to update existing text or code snippets.
+- ✅ Allow users to delete text or code snippets.
+- ✅ Collect view statistics for shared text or code snippets.
+- ✅ Document the project thoroughly.
 
 ## 2. Financial Transactions Tracking Application
 
