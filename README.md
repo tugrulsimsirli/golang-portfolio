@@ -6,7 +6,7 @@ These projects are designed to showcase backend development skills with Golang a
 
 **Objective**: Develop a simple backend application where users can share text or code snippets.
 
-**Technologies**: Gin or Echo, Gorm, PostgreSQL/MongoDB
+**Technologies**: Golang, Gin or Echo, Gorm, PostgreSQL/MongoDB
 
 **Architecture**: Layered Architecture and Repository Pattern
 
@@ -19,20 +19,20 @@ These projects are designed to showcase backend development skills with Golang a
 - ✅ Collect view statistics for shared text or code snippets.
 - ✅ Document the project thoroughly.
 
-## 2. Financial Transactions Tracking Application
+## 2. Rating and Notification Services
 
-**Objective**: Develop an application where users can track their income and expenses.
+**Objective**: Develop two different services for Rating and Notification.
 
-**Technologies**: Gin or Echo, Gorm, PostgreSQL
+**Technologies**: Golang, Gin or Echo, PostgreSQL, RabbitMQ, Testify
 
-**Architecture**: Domain-Driven Design (DDD) and Repository Pattern
+**Architecture**: Layered Architecture, Event-Driven Design (EDD) and Repository Pattern
 
 **Tasks**:
-- [ ] Implement user authentication using JWT.
-- [ ] Allow users to create income and expense entries.
-- [ ] Display, update, and delete income and expense entries.
-- [ ] Generate reports for income and expenses.
-- [ ] Apply Domain-Driven Design principles.
+- [ ] Allow users to create new ratings on Rating Service.
+- [ ] When a new rating is added, send a message to the Notification Service to create a notification.
+- [ ] Display average rating on Rating Service.
+- [ ] Get latest notifications on Notification Service.
+- [ ] Implement Event-Driven communication between Rating and Notification Services using RabbitMQ and ensure proper message consumption and publishing.
 - [ ] Document the project thoroughly.
 
 ## 3. News Aggregator and Analysis Application
