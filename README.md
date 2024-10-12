@@ -19,7 +19,7 @@ These projects are designed to showcase backend development skills with Golang a
 - ✅ Collect view statistics for shared text or code snippets.
 - ✅ Document the project thoroughly.
 
-## 2. Rating and Notification Services
+## 2. [Rating and Notification Services](https://github.com/tugrulsimsirli/rating_notification_services)
 
 **Objective**: Develop two different services for Rating and Notification.
 
@@ -28,12 +28,12 @@ These projects are designed to showcase backend development skills with Golang a
 **Architecture**: Layered Architecture, Event-Driven Design (EDD) and Repository Pattern
 
 **Tasks**:
-- [ ] Allow users to create new ratings on Rating Service.
-- [ ] When a new rating is added, send a message to the Notification Service to create a notification.
-- [ ] Display average rating on Rating Service.
-- [ ] Get latest notifications on Notification Service.
-- [ ] Implement Event-Driven communication between Rating and Notification Services using RabbitMQ and ensure proper message consumption and publishing.
-- [ ] Document the project thoroughly.
+- ✅ Allow users to create new ratings on Rating Service.
+- ✅ When a new rating is added, send a message to the Notification Service to create a notification.
+- ✅ Display average rating on Rating Service.
+- ✅ Get latest notifications on Notification Service.
+- ✅ Implement Event-Driven communication between Rating and Notification Services using RabbitMQ and ensure proper message consumption and publishing.
+- ✅ Document the project thoroughly.
 
 ## 3. News Aggregator and Analysis Application
 
