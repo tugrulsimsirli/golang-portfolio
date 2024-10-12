@@ -1,6 +1,6 @@
 # Projects and Task List
 
-These projects are designed to showcase backend development skills with Golang and apply various software architectures. Each project is developed using specific technologies and architectural approaches.
+These projects are designed to showcase backend development skills and apply various software architectures. Each project is developed using specific technologies and architectural approaches.
 
 ## 1. [Pastebin Clone](https://github.com/tugrulsimsirli/pastebin-clone)
 
